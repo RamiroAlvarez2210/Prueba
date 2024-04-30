@@ -1,0 +1,14 @@
+even                    par
+odd                     impar
+otherwise               como else
+>:t                     Tipo
+>:r                     recargar
+>lengh [1..4]           = 4
+>head['a'..'z']         'a'
+>last['a'..'z']         'z'
+>tail [1..5]            [2,3,4,5]
+>sum [1,3,5]            9
+>take 3[1..7]           [1,2,3]
+fst                     Primer elemento de una tupla
+sqrt                    raiz
+data Persona = Persona{nombre :: String, edad :: Int} deriving (Show)
